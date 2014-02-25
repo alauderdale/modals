@@ -1,0 +1,10 @@
+---
+en:
+ welcome: Homepage
+ paths:
+  root:                /
+  development:
+   styles:      /development/styles
+  programs:
+   program1:   
+    program_1_1: /programs/program_1/program_1_1  

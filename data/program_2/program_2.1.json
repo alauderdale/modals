@@ -1,0 +1,69 @@
+{
+"url":"/programs/program_2/program_2_1",
+"title":"Live an Inspired Life", 
+"description":"Inspirations encourage us to keep moving forward and growing. With the constant buzz of social media, it’s important to find inspiration simply by being conscientious. Inspiration helps us not only build, but act out our inner desire of who we want to be or become.",
+"image_url":"http://metrouk2.files.wordpress.com/2009/10/base_jumppa_450x300.jpg", 
+"started": false , 
+"progress": "0%" ,
+"continue_url": "/programs/program_2/applet_1/1" ,
+"author_name": "7 Secret Weekly Habits" ,
+"author_avatar_url": "http://data1.whicdn.com/images/7181860/person,sunlight,female,sun,inspiration,sunshine,makes,me,happy-2225691b4c90ec45418d2ed8290ef0a1_h_large.jpg" ,
+"author_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lectus." ,
+	"applets": [
+	  {	"title":"Live an Inspired Life", 
+	  	"collapsed": false,
+	  	"description":"Living through inspiration is great! Learn what makes inspiration so powerfull.",
+	  	"icon_url":"http://amazingasset.com/wp-content/uploads/2012/05/living-life-to-the-fullest.jpg",
+	  	"type":"content",
+	  	"elements": [
+		  	{
+		  		"title":"Why be Inspired?",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_2/applet_1/1"
+		  	},
+		  	{
+		  		"title":"The Power of Inspiration",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_2/applet_1/2"
+		  	}
+	  	]
+	  },
+	  {	"title":"How are you inspired?", 
+	  	"collapsed": true,
+	  	"description":"Take this short quiz to...",
+	  	"icon_url":"http://vanessalpinto.files.wordpress.com/2013/04/inspiration_sign.jpg",
+	  	"type":"quiz",
+	  	"elements": [
+	  		{
+		  		"title":"About the quiz",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_2/applet_2/1"
+		  	},
+		  	{
+		  		"title":"Take the Quiz",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_2/applet_2/2"
+		  	},
+		  	{
+		  		"title":"Next Steps",
+		  		"state": "locked",
+		  		"url":"/programs/program_2/applet_2/3"
+		  	}
+	  	]
+	  },
+	  {	"title":"Your Inspiration Portrait", 
+	  	"collapsed": true,
+	  	"locked": true,
+	  	"description":"Take this short quiz to...",
+	  	"icon_url":"http://2.bp.blogspot.com/_R3DP9jfXBXc/SwMCp-kVY9I/AAAAAAAADCo/EOShyBZ9gJQ/s1600/art%2B084.jpg",
+	  	"type":"content",
+	  	"elements": [
+	  		{
+		  		"title":"Review Your Portrait",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_2/applet_3/1"
+		  	}
+	  	]
+	  }
+	]
+}

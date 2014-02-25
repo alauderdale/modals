@@ -1,0 +1,83 @@
+{
+"url":"/programs/program_1/program_1_1",
+"title":"Going Deeper: All Things Marriage & More Than", 
+"description":"Perhaps you've been to a FamilyLife Weekend to Remember or Art of Marriage event. Maybe you haven't. Either way, you probably know that building a strong marriage takes hard work! This program is here to help.",
+"image_url":"program_1_banner.png", 
+"started": true , 
+"progress": "66%" ,
+"continue_url": "/programs/program_1/applet_1/1" ,
+"author_name": "Family Life" ,
+"author_avatar_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRV87x57cuztIypD2bxjI5SfEficPVpDEYW-B6cgDMNVmkP08Bf" ,
+"author_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lectus." ,
+	"applets": [
+	  {	"title":"The Key To Great Relationships", 
+	  	"collapsed": true,
+	  	"description":"Relationships can be tricky. Here are a few short articles designed to help you with our relationship.",
+	  	"icon_url":"http://img.allw.mn/www/thumbs/50/877.jpg",
+	  	"type":"content",
+	  	"elements": [
+		  	{
+		  		"title":"Putting yourself in your partners shoes",
+		  		"state": "complete",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	},
+		  	{
+		  		"title":"Listening",
+		  		"state": "complete",
+		  		"url":"/programs/program_1/applet_1/2"
+		  	},
+		  	{
+		  		"title":"This Content is Locked",
+		  		"state": "complete",
+		  		"url":"/programs/program_1/applet_1/2"
+		  	}
+	  	]
+	  },
+	  {	"title":"What Kind of Gift Giver are You?", 
+	  	"description":"A key aspect to any relationship is gifts. Giving is a great way to keep each other feeling loved. In this quiz, you will find out exactly what type of gift giver you are!",
+	  	"icon_url":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9cqN8RpyrkEeGrDm5d7k_LgcjqyR46cjT9_IIcpQtNablmBywkQ",
+	  	"collapsed": false,
+	  	"type":"Quiz",
+	  	"elements": [
+		  	{
+		  		"title":"About the test",
+		  		"state": "complete",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	},
+		  	{
+		  		"title":"Take the test",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	},
+		  	{
+		  		"title":"More about your results",
+		  		"state": "locked",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	}
+	  	]
+	  },
+	  {	"title":"What Kind of Gift Giver are You?", 
+	  	"description":"A key aspect to any relatinship is gifts. Giving is a great way to keep each other feeling loved. In this quiz, you will find out exactly what type of gift giver you are!",
+	  	"icon_url":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9cqN8RpyrkEeGrDm5d7k_LgcjqyR46cjT9_IIcpQtNablmBywkQ",
+	  	"locked": true,
+	  	"type":"content",
+	  	"elements": [
+		  	{
+		  		"title":"Putting yourself in your partners shoes",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	},
+		  	{
+		  		"title":"Listening",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	},
+		  	{
+		  		"title":"Putting yourself in your partners shoes",
+		  		"state": "incomplete",
+		  		"url":"/programs/program_1/applet_1/1"
+		  	}
+	  	]
+	  }
+	]
+}

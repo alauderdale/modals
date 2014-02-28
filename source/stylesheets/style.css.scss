@@ -804,81 +804,15 @@ section{
   }
 }
 
+//front modal
 
-//wizard
-
-// .wizard-dialog{
-//   width:100%!important;
-//   height:100%!important;
-//   margin:0px!important;
-//   padding:0px!important;
-//   margin-top:-1px!important;
-//   overflow:auto;
-// }
-// .wizard-content{
-//   border-radius:0px!important;
-//   height:100%!important;
-//   padding-top:52px;
-//   overflow:auto;
-// }
-// .wizard-steps{
-//   display:none;
-// }
-// .wizard-card-container{
-//   margin-left:0;
-//   height:100%!important;
-// }
-
-// .wizard-cards{
-//   height:100%!important;
-// }
-
-// .wizard-card{
-//   height:100%!important;
-
-// }
-
-// .wizard-body{
-//   height:100%!important;
-//   // overflow:auto;
-// }
-
-// .wizard-header{
-//   background-color:shade($primary-color,80%);
-//   position: fixed;
-//   right: 0;
-//   left: 0;
-//   top:0;
-//   float: left;
-//   z-index: 999;
-//   h3{
-//     color:white;
-//   }
-//   .wizard-close{
-//     color:white;
-//     text-shadow:none;
-//     opacity:1;
-//     margin-top:4px;
-//   }
-// }
-
-// .wizard-footer{
-//    position:fixed;
-//    left:0px;
-//    bottom:0px;
-//    width:100%;
-//    background:#999;
-//    background-color:shade($primary-color,80%);
-// }
-
-// .wizard-buttons-container{
-//   display:inline-block;
-//   padding:0;
-//   margin:0;
-//   width:100%;
-//   padding:$baseline/2 $baseline;
-// }
-
+.front-modal{
+  z-index: 9999;
+  background-color:rgba(0,0,0,.4);
+}
+.modal-backdrop{
+  z-index: -1;
+}
 
 
 //responsify

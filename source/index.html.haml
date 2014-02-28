@@ -10,9 +10,13 @@
 		.row
 			.col-sm-12
 				%button#open-wizard.btn.btn-primary
-					Title
+					Wizard
+				%button.btn.btn-primary{"data-toggle"=>"modal","data-target"=>"#fullScreenModal"}
+					Full screen modal
+				%button.btn.btn-primary{"data-toggle"=>"modal","data-target"=>"#normalModal"}
+					Normal Modal
 
-.modal.fade#myModal.full-screen-modal
+.modal.fade#fullScreenModal.full-screen-modal
 	.modal-dialog
 		.modal-content
 			%nav.navbar-fixed-top.modal-header.navbar
@@ -26,8 +30,33 @@
 				%button.btn.btn-primary{type: "button"} Save changes
 
 
-%button.btn.btn-primary{"data-toggle"=>"modal","data-target"=>"#myModal"}
-	What! Another Modal?
+
+.modal#frontModal.front-modal{"data-backdrop"=>"static"}
+	.modal-dialog
+		.modal-content
+			.modal-header
+				%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+				%h4.modal-title Modal title
+			.modal-body
+				%p
+					= lorem.paragraphs 1
+			.modal-footer
+				%button.btn.btn-default{"data-dismiss" => "modal", type: "button"} Close
+				%button.btn.btn-primary{type: "button"} Save changes
+
+
+.modal#normalModal{"data-backdrop"=>"static"}
+	.modal-dialog
+		.modal-content
+			%nav.modal-header
+				%button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+				%h4.modal-title Modal title
+			.modal-body
+				%p
+					= lorem.paragraphs 3
+			%nav.modal-footer
+				%button.btn.btn-default{"data-dismiss" => "modal", type: "button"} Close
+				%button.btn.btn-primary{"data-toggle"=>"modal","data-target"=>"#frontModal", type: "button"} Another Modal
 
 
 #some-wizard.wizard{"data-title" => "Select a Champion"}
@@ -36,7 +65,7 @@
 		= lorem.paragraphs 30
 	.wizard-card{"data-cardname" => "card2"}
 		%h3 Step 2
-		%button.btn.btn-primary{"data-toggle"=>"modal","data-target"=>"#myModal"}
+		%button.btn.btn-primary{"data-toggle"=>"modal","data-target"=>"#frontModal"}
 			What! Another Modal?
 	.wizard-success
 		submission succeeded!

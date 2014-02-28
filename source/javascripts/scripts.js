@@ -5,7 +5,7 @@
 
 		var wizard = $('#some-wizard').wizard({
 			keyboard : false,
-			backdrop: 'static'
+			backdrop: false
 		});
 
 
